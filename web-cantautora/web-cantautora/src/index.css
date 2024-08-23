@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #F5F5F5;
+  color: #323232;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  color: #323232;
+  margin-bottom: 20px;
+}
+
+/* Header */
+.header {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-color: #323232;
+}
+
+.header-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(50%);
+}
+
+.header-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.header h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.play-button {
+  background-color: #C0392B;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+/* Music Section */
+.music-section {
+  padding: 40px;
+  background-color: #FFFFFF;
+}
+
+.music-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.music-card {
+  width: 150px;
+  text-align: center;
+}
+
+/* Videos Section */
+.videos-section {
+  padding: 40px;
+  background-color: #ECF0F1;
+}
+
+.video-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.video-card {
+  width: 150px;
+  text-align: center;
+}
+
+/* Footer */
+.footer {
+  padding: 40px;
+  background-color: #323232;
+  color: #FFFFFF;
+}
+
+.footer h2 {
+  color: #FFFFFF;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input, .contact-form textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #C0392B;
+}
+
+.contact-form button {
+  background-color: #C0392B;
+  color: #FFFFFF;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
